@@ -26,11 +26,14 @@
         android:id="@+id/mainName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
+        android:layout_marginTop="93dp"
         android:ems="10"
         android:hint="Name or whatever"
         android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/mainGoButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="93dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
