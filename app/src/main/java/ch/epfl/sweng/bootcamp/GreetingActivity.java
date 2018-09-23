@@ -19,7 +19,7 @@ public class GreetingActivity extends AppCompatActivity {
         // Capture the layout's TextView and set the string as its text
         TextView textView = findViewById(R.id.greetingMessage);
         String newMessage = "Hello " + message + "!";
-        textView.setText(newMessage); 
+        textView.setText(newMessage);
 
     }
 }
